@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width:100%;
+    background-color:dodgerblue;
+    font-family: 'Calibri','sans-serif','Times New Roman';
+    text-align: center;
+}
+h1 {
+    font-family:'Calibri','sans-serif','Times New Roman';
+    font-size:45px;
+    color: white;
+    font-weight: lighter;
+    
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    }
+.row .input{
+    flex-basis: 40%;
+}
+
+/* Styling the Form (Color, Padding, Shadow) */
+form {
+    background-color: #fff;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Styling input Class */
+.input {
+    text-align: left;
+    margin: 15px;
+}
+#name {
+    margin: 10px 0;
+    padding: 18px 25px;
+}
+#email{
+    margin: 10px 0;
+    padding: 18px 25px; 
+}
+.Select {
+    display: flex;
+    margin: 15px;
+}
+#recommed-1{
+    margin-left: 0px;
+}
+#recommed-2{
+    margin-left: 10px;
+}
+
+#recommed-3{
+    margin-left: 5px;
+}
+
+#Feedback{
+    margin: 15px 0;
+    padding: 10px 10px;
+    width: 100%;
+}
+
+/* Styling Button */
+button {
+    background-color:dodgerblue;
+    color: #fff;
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: 18px;
+    display: block;
+    width: 30%;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

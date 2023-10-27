@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+body {
+  
+background: lightgray;
+  
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: white;
+  width: 80%;
+  height: auto;
+  box-shadow: 1em 1em 2em rgba(0, 0, 0, 0.2);
+}
+.display-result{
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.display-result input[type=text].display {
+  display: block;
+  border: 0;
+  padding-top: 1%;
+  padding-left: 5%;
+  width: 76%;
+  height: 60px;
+  font-size: 1.4em;
+  
+}
+
+input[type=button].clear {
+  width: 25.5%;
+  font-size: 20px;
+  background: darkcyan;
+  border: 2px solid #009688;
+}
+
+.grid-buttons {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background:rgb(29, 29, 30);
+}
+input[type=button] {
+  flex-grow: 1; 
+  width: 25%; 
+  height: auto;
+  padding: 4%;
+  border: 0;
+  align-items: center;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 500;
+  color: white;
+  background: rgb(29, 29, 30);
+  border: 2px solid rgb(29, 29, 30); 
+}
+
+.grid-buttons input[type=button].operator {
+  background: #757575;
+  border: 2px solid #757575;
+}
+.grid-buttons input[type=button]:hover,
+input[type=button].clear:hover {
+  background: lightseagreen;
+  border: 2px solid lightseagreen;
+  transition: 0.3s ease;
+}

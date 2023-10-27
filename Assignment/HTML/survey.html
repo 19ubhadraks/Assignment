@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="form style2.css" />
+</head>
+
+<body>
+    <h1>Customer Survey Form</h1>
+    <form>
+        <div class="row">
+            <!-- Details -->
+
+            <div class="input">
+
+                <label for="name">
+                    Name
+                </label>
+
+                <br>
+
+                <!-- Input Type Text -->
+                <input type="text" id="name" placeholder="Enter your name" >
+
+            </div>
+
+            <div class="input">
+
+                <label for="email"> 
+                    Email
+                </label>
+
+                <!-- Input Type Email-->
+                <input type="email" id="email" placeholder="Enter your Email" >
+
+            </div>
+            
+        </div>
+        <div class="input">
+            <label>
+                Is this first time you are using our Product or Service
+            </label>
+
+            <!-- Input Type Radio Button -->
+            <div class="Select">
+                <label for="recommed-1">
+                    <input type="radio" id="recommed-1" name="recommed">
+                    Yes
+                
+                </label>
+                <label for="recommed-2">
+                    <input type="radio" id="recommed-2" name="recommed">
+                    No
+
+                </label>
+            </div>
+
+        </div>
+
+        <div class="input">
+            <label>
+                Would you suggest to your friend or collegue?
+            </label>
+            <br>
+
+            <!-- Input Type Radio Button -->
+            <div class="Select">
+                <label for="recommed-1">
+                    <input type="radio" id="recommed-1" name="recommed">
+                    Yes
+               
+                </label>
+                <label for="recommed-2">
+                    <input type="radio" id="recommed-2" name="recommed">
+                    No
+                </label>
+            </div>
+        </div>
+
+        <div class="input">
+            <label>
+                How Satisfied are you with our company overall?
+            </label>
+            <br>
+
+            <!-- Input Type Radio Button -->
+            <div class="Select">
+                <label for="recommed-1">
+                    <input type="radio" id="recommed-1" name="recommed">
+                     Satisfied
+
+                </label>
+                <label for="recommed-2">
+                    <input type="radio" id="recommed-2" name="recommed">
+                      Unsatisfied
+
+                </label>
+                <label for="recommed-2">
+                    <input type="radio" id="recommed-2" name="recommed">
+                    Undecided
+
+                </label>
+            </div>
+        </div>
+
+
+
+        <div class="input">
+            <label for="Feedback">
+                Do you have any suggestions to Improve our service?
+            </label>
+
+            <!-- multi-line text input control -->
+            <textarea name="Feedback" id="Feedback" cols="50" rows="10" placeholder="Enter your feedback here">
+			</textarea>
+        </div>
+
+        <!-- Multi-line Text Input Control -->
+        <button type="submit" value="submit">
+            SUBMIT
+        </button>
+    </form>
+</body>
+</html>
